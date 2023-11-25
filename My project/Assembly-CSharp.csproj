@@ -59,10 +59,10 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Samples/Google Cardboard XR Plugin for Unity/1.22.0/Hello Cardboard/Scripts/CardboardStartup.cs" />
-    <Compile Include="Assets/Samples/Google Cardboard XR Plugin for Unity/1.22.0/Hello Cardboard/Scripts/GraphicsAPITextController.cs" />
-    <Compile Include="Assets/Samples/Google Cardboard XR Plugin for Unity/1.22.0/Hello Cardboard/Scripts/ObjectController.cs" />
-    <Compile Include="Assets/Samples/Google Cardboard XR Plugin for Unity/1.22.0/Hello Cardboard/Scripts/VrModeController.cs" />
+    <Compile Include="Assets/Scripts/ObjectController.cs" />
+    <Compile Include="Assets/Scripts/VrModeController.cs" />
+    <Compile Include="Assets/Scripts/GraphicsAPITextController.cs" />
+    <Compile Include="Assets/Scripts/CardboardStartup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -698,11 +698,11 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -713,11 +713,11 @@
     <Reference Include="Google.XR.Cardboard.Editor">
       <HintPath>Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>

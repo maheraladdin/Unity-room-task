@@ -365,10 +365,10 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Samples/Google Cardboard XR Plugin for Unity/1.22.0/Hello Cardboard/Scripts/CardboardStartup.cs"
-"Assets/Samples/Google Cardboard XR Plugin for Unity/1.22.0/Hello Cardboard/Scripts/GraphicsAPITextController.cs"
-"Assets/Samples/Google Cardboard XR Plugin for Unity/1.22.0/Hello Cardboard/Scripts/ObjectController.cs"
-"Assets/Samples/Google Cardboard XR Plugin for Unity/1.22.0/Hello Cardboard/Scripts/VrModeController.cs"
+"Assets/Scripts/CardboardStartup.cs"
+"Assets/Scripts/GraphicsAPITextController.cs"
+"Assets/Scripts/ObjectController.cs"
+"Assets/Scripts/VrModeController.cs"
 -langversion:9.0
 
 /deterministic
