@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{B7298155-AE28-AC9F-141B-96387F537922}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PackageCache/com.google.xr.cardboard@17e19f289a/Runtime/CardboardReticlePointer.cs">
+    <Files>
+      <File FileName="Library/PackageCache/com.google.xr.cardboard@17e19f289a/Runtime/CardboardReticlePointer.cs" Line="158" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Unity-task-room" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8db48f0b-fe47-4486-a5df-491a497061e5" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
