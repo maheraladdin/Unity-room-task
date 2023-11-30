@@ -814,7 +814,7 @@ Transform:
   m_GameObject: {fileID: 907292807}
   serializedVersion: 2
   m_LocalRotation: {x: 0.12629461, y: 0.79260254, z: -0.13537195, w: 0.5809521}
-  m_LocalPosition: {x: 4.8151617, y: 5.72, z: -7.8524103}
+  m_LocalPosition: {x: 4.8151617, y: 1.3, z: -7.8524103}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -907,7 +907,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.03
-  far clip plane: 10
+  far clip plane: 1000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -934,14 +934,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959308587}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0068195434, y: -0.14801516, z: 0.057419106, w: 0.98729336}
-  m_LocalPosition: {x: -0.38, y: 1.51, z: 3.84}
+  m_LocalRotation: {x: -0.14898989, y: -0.14794107, z: 0.036157917, w: 0.97704047}
+  m_LocalPosition: {x: -0.34, y: 2.53, z: 3.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2109361390}
   m_Father: {fileID: 907292808}
-  m_LocalEulerAnglesHint: {x: 0.202, y: -17.041, z: 6.627}
+  m_LocalEulerAnglesHint: {x: -16.286, y: -18.204, z: 6.865}
 --- !u!1 &1288077300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1615,6 +1615,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 482300, guid: 15fcd94adb15b48f7bb4a80622ae7046, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 723926960, guid: 15fcd94adb15b48f7bb4a80622ae7046, type: 3}
+      propertyPath: ReticleInteractionLayerMask.m_Bits
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 723926960, guid: 15fcd94adb15b48f7bb4a80622ae7046, type: 3}
