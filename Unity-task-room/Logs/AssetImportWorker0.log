@@ -1116,3 +1116,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3192.231401 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(d2fcf151e1b91415fb2a6cce6e3d50ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(d2fcf151e1b91415fb2a6cce6e3d50ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeea3464b5a8d9be47b26d5801916509') in 0.058656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.861534 seconds.
+  path: Assets/Animations/OpenDoor.anim
+  artifactKey: Guid(141a34e9caf524702811712f8a1336fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/OpenDoor.anim using Guid(141a34e9caf524702811712f8a1336fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f7414dae82fe435ec9a42242fae05f') in 0.091666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.318781 seconds.
+  path: Assets/Animations/Door.controller
+  artifactKey: Guid(dd43c39bed0da4348a35f6b791cdfcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Door.controller using Guid(dd43c39bed0da4348a35f6b791cdfcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2fa9a42e505bde3eeaabb17bdcc085') in 0.004200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 207.337261 seconds.
+  path: Assets/Animations/DoorOpen.anim
+  artifactKey: Guid(dc27a62535c2e4d58a4a8f7d23e7deb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DoorOpen.anim using Guid(dc27a62535c2e4d58a4a8f7d23e7deb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008a1d279927d8b5cdd65a94c3bfd460') in 0.007227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 308.506896 seconds.
+  path: Assets/Animations/DoorClose.anim
+  artifactKey: Guid(6ad4444e7187d4dd491541f1ce0048be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DoorClose.anim using Guid(6ad4444e7187d4dd491541f1ce0048be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac8b2546de767f95174980d27714cdf') in 0.009185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 35.306247 seconds.
+  path: Assets/Animations/room.controller
+  artifactKey: Guid(debe864108afa4be58904fb831720f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/room.controller using Guid(debe864108afa4be58904fb831720f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccaf38bfcc8cfa008cd90e26c6532da') in 0.010855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 186.020127 seconds.
+  path: Assets/Animations/Door.controller
+  artifactKey: Guid(dd43c39bed0da4348a35f6b791cdfcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Door.controller using Guid(dd43c39bed0da4348a35f6b791cdfcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a409d94501bc5040bb8516990d8e1b') in 0.014586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 124.126128 seconds.
+  path: Assets/Animations/DoorOpen.anim
+  artifactKey: Guid(dc27a62535c2e4d58a4a8f7d23e7deb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DoorOpen.anim using Guid(dc27a62535c2e4d58a4a8f7d23e7deb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ad7a063df673c4f01eb891054b6358') in 0.017908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.592850 seconds.
+  path: Assets/Animations/DoorClose.anim
+  artifactKey: Guid(6ad4444e7187d4dd491541f1ce0048be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DoorClose.anim using Guid(6ad4444e7187d4dd491541f1ce0048be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79247faddbaf340ade7e86eb6005d537') in 0.001623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
