@@ -5,7 +5,6 @@ using UnityEngine.EventSystems;
 using UnityEngine.TestTools;
 using UnityEngine.UI;
 
-[UnityPlatform()]
 public class InputModuleTests
 {
     EventSystem m_EventSystem;
