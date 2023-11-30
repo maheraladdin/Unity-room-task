@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Teleport
+    - TriggerDoorController
     Google.XR.Cardboard.dll:
     - CardboardReticlePointer
     - Google.XR.Cardboard.XRLoader
@@ -13,6 +14,14 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -43,7 +52,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -55,6 +70,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 20216}
     - Class: 114
       Script: {instanceID: 23748}
+    - Class: 114
+      Script: {instanceID: 29372}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -978,6 +995,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Teleport
+  - hash:
+      serializedVersion: 2
+      Hash: fba3bc1dbed8f901fbe8b2c7fcd7a6bf
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TriggerDoorController
   platform: 9
   scenePathNames:
   - Assets/Scenes/HelloCardboard.unity

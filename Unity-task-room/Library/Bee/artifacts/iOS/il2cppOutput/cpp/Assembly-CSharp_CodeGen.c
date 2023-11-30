@@ -30,6 +30,9 @@ extern void Teleport_OnPointerEnter_m8296EC0CB999DA40AC4550E380A4A65435F34D78 (v
 extern void Teleport_OnPointerExit_m31CDE4AD4CEEAF56E063C873F892AE5D2E207A4B (void);
 extern void Teleport_IsGazedAt_m2FCEDA59C86EA5869C96CFD7F6BBFF10E269457D (void);
 extern void Teleport__ctor_mBE9263D3201BDF5309D9B75C0EEEDAC1FA904EC9 (void);
+extern void TriggerDoorController_OnTriggerEnter_m256414400CBACCC7F80D654401F25CA422BF7C13 (void);
+extern void TriggerDoorController_OnTriggerExit_m2B0E7662F21530F1497906BDD06BB75EB6F012BE (void);
+extern void TriggerDoorController__ctor_m425D0AD363A8618DA2BE5E8FE573D6877AB0AEF1 (void);
 extern void VrModeController_get__isScreenTouched_mD72F14326F1D19F3AC970FD0ED9D0C5CD5C6CFB5 (void);
 extern void VrModeController_get__isVrModeEnabled_m8D8D68536E09FF2DEAD3795AF30A57BA6DF7C95F (void);
 extern void VrModeController_Start_m10BF77FE8B825D9640800D5DF7EF791A391FA49B (void);
@@ -47,7 +50,7 @@ extern void U3CStartXRU3Ed__10_System_Collections_IEnumerator_Reset_mD99AEFDB38C
 extern void U3CStartXRU3Ed__10_System_Collections_IEnumerator_get_Current_mD84D9ACDB0A04C619509BA51590975DB84C30B0F (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[35] = 
+static Il2CppMethodPointer s_methodPointers[38] = 
 {
 	CardboardStartup_Start_m35E3138C09D62411C4C8503DD4D47DA2AF9BF6E2,
 	CardboardStartup_Update_m4D4D770B4F4BA807AB64DB40B6730226BB821883,
@@ -67,6 +70,9 @@ static Il2CppMethodPointer s_methodPointers[35] =
 	Teleport_OnPointerExit_m31CDE4AD4CEEAF56E063C873F892AE5D2E207A4B,
 	Teleport_IsGazedAt_m2FCEDA59C86EA5869C96CFD7F6BBFF10E269457D,
 	Teleport__ctor_mBE9263D3201BDF5309D9B75C0EEEDAC1FA904EC9,
+	TriggerDoorController_OnTriggerEnter_m256414400CBACCC7F80D654401F25CA422BF7C13,
+	TriggerDoorController_OnTriggerExit_m2B0E7662F21530F1497906BDD06BB75EB6F012BE,
+	TriggerDoorController__ctor_m425D0AD363A8618DA2BE5E8FE573D6877AB0AEF1,
 	VrModeController_get__isScreenTouched_mD72F14326F1D19F3AC970FD0ED9D0C5CD5C6CFB5,
 	VrModeController_get__isVrModeEnabled_m8D8D68536E09FF2DEAD3795AF30A57BA6DF7C95F,
 	VrModeController_Start_m10BF77FE8B825D9640800D5DF7EF791A391FA49B,
@@ -85,49 +91,52 @@ static Il2CppMethodPointer s_methodPointers[35] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[35] = 
+static const int32_t s_InvokerIndices[38] = 
 {
-	1190,
-	1190,
-	1190,
-	1190,
-	1190,
-	1190,
-	1190,
-	1190,
-	1190,
-	1190,
-	971,
-	1190,
-	1190,
-	1190,
-	1190,
-	1190,
-	971,
-	1190,
-	1131,
-	1131,
-	1190,
-	1190,
-	1190,
-	1190,
-	1160,
-	1190,
-	1190,
-	993,
-	1190,
-	1131,
-	1160,
-	1190,
-	1160,
-	2266,
-	1190,
+	1205,
+	1205,
+	1205,
+	1205,
+	1205,
+	1205,
+	1205,
+	1205,
+	1205,
+	1205,
+	986,
+	1205,
+	1205,
+	1205,
+	1205,
+	1205,
+	986,
+	1205,
+	1018,
+	1018,
+	1205,
+	1146,
+	1146,
+	1205,
+	1205,
+	1205,
+	1205,
+	1175,
+	1205,
+	1205,
+	1008,
+	1205,
+	1146,
+	1175,
+	1205,
+	1175,
+	2281,
+	1205,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	35,
+	38,
 	s_methodPointers,
 	0,
 	NULL,

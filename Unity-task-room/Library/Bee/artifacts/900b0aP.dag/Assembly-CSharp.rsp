@@ -315,6 +315,7 @@
 "Assets/Scripts/GraphicsAPITextController.cs"
 "Assets/Scripts/ObjectController.cs"
 "Assets/Scripts/Teleport.cs"
+"Assets/Scripts/TriggerDoorController.cs"
 "Assets/Scripts/VrModeController.cs"
 -langversion:9.0
 

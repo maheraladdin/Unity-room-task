@@ -58,6 +58,7 @@
     <Compile Include="Assets/Scripts/ObjectController.cs" />
     <Compile Include="Assets/Scripts/VrModeController.cs" />
     <Compile Include="Assets/Scripts/GraphicsAPITextController.cs" />
+    <Compile Include="Assets/Scripts/TriggerDoorController.cs" />
     <Compile Include="Assets/Scripts/Teleport.cs" />
     <Compile Include="Assets/Scripts/CardboardStartup.cs" />
   </ItemGroup>

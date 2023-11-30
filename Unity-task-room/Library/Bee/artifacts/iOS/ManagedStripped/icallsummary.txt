@@ -6,6 +6,9 @@ Unity.Jobs.LowLevel.Unsafe.JobsUtility::CreateJobReflectionData
 UnityEngine.AnimationCurve::Internal_Equals
 UnityEngine.AnimationCurve::Internal_Create
 UnityEngine.AnimationCurve::Internal_Destroy
+UnityEngine.Animations.AnimationLayerMixerPlayable::SetSingleLayerOptimizationInternal
+UnityEngine.Animator::StringToHash
+UnityEngine.Animator::Play
 UnityEngine.Application::Quit
 UnityEngine.AudioSettings::StartAudioOutput
 UnityEngine.AudioSettings::StopAudioOutput
@@ -52,6 +55,7 @@ UnityEngine.Experimental.Rendering.GraphicsFormatUtility::GetDepthStencilFormatF
 UnityEngine.Experimental.Rendering.GraphicsFormatUtility::GetGraphicsFormat_Native_RenderTextureFormat
 UnityEngine.Experimental.Rendering.GraphicsFormatUtility::GetGraphicsFormat_Native_TextureFormat
 UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemSettings::ScriptingDirtyReflectionSystemInstance
+UnityEngine.GameObject::CompareTag
 UnityEngine.GameObject::get_layer
 UnityEngine.GameObject::Internal_CreateGameObject
 UnityEngine.GameObject::SendMessage
@@ -135,6 +139,8 @@ UnityEngine.Physics::Internal_RaycastAll_Injected
 UnityEngine.PhysicsScene::Internal_RaycastTest_Injected
 UnityEngine.PhysicsScene::Internal_Raycast_Injected
 UnityEngine.PhysicsScene::Internal_RaycastNonAlloc_Injected
+UnityEngine.Playables.PlayableHandle::IsValid_Injected
+UnityEngine.Playables.PlayableHandle::GetPlayableType_Injected
 UnityEngine.PlayerConnectionInternal::IsConnected
 UnityEngine.PlayerConnectionInternal::TrySendMessage
 UnityEngine.PlayerConnectionInternal::DisconnectAll

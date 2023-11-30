@@ -2,6 +2,53 @@
   "report": {
     "modules": [
       {
+        "name": "Animation",
+        "dependencies": [
+          {
+            "name": "AnimationClip",
+            "scenes": [
+              "Assets/Scenes/HelloCardboard.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Animator",
+            "scenes": [
+              "Assets/Scenes/HelloCardboard.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AnimatorController",
+            "scenes": [
+              "Assets/Scenes/HelloCardboard.unity"
+            ],
+            "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "AnimatorOverrideController",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Motion",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "RuntimeAnimatorController",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "Audio",
         "dependencies": [
           {
@@ -396,6 +443,12 @@
             "icon": null
           },
           {
+            "name": "Required by Animation Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.animation"
+          },
+          {
             "name": "Required by Audio Module",
             "scenes": [],
             "dependencyType": 2,
@@ -573,6 +626,12 @@
       {
         "name": "SharedInternals",
         "dependencies": [
+          {
+            "name": "Required by Animation Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.animation"
+          },
           {
             "name": "Required by Audio Module",
             "scenes": [],
