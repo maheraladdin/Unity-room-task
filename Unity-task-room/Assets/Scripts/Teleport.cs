@@ -38,6 +38,7 @@ public class Teleport : MonoBehaviour
 
     public void OnPointerEnter()
     {
+        print("Looked at teleporter");
         // IsGazedAt(true);
         colorChanging = true;
     }
@@ -53,5 +54,10 @@ public class Teleport : MonoBehaviour
     void IsGazedAt(bool gazedAt)
     {
         meshRenderer.material.color = gazedAt ? activeColor : inactiveColor;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        print("TriggerEnter cube");
     }
 }
